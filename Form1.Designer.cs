@@ -44,19 +44,18 @@
             // lblAPIUrl
             // 
             this.lblAPIUrl.AutoSize = true;
-            this.lblAPIUrl.Location = new System.Drawing.Point(12, 9);
+            this.lblAPIUrl.Location = new System.Drawing.Point(47, 9);
             this.lblAPIUrl.Name = "lblAPIUrl";
-            this.lblAPIUrl.Size = new System.Drawing.Size(47, 12);
+            this.lblAPIUrl.Size = new System.Drawing.Size(49, 12);
             this.lblAPIUrl.TabIndex = 0;
-            this.lblAPIUrl.Text = "API位置";
+            this.lblAPIUrl.Text = "API URL";
             // 
             // tbxAPIUrl
             // 
-            this.tbxAPIUrl.Location = new System.Drawing.Point(65, 6);
+            this.tbxAPIUrl.Location = new System.Drawing.Point(102, 6);
             this.tbxAPIUrl.Name = "tbxAPIUrl";
-            this.tbxAPIUrl.Size = new System.Drawing.Size(746, 22);
+            this.tbxAPIUrl.Size = new System.Drawing.Size(709, 22);
             this.tbxAPIUrl.TabIndex = 1;
-            this.tbxAPIUrl.Text = "https://api.telegram.org/";
             // 
             // btnSubmit
             // 
@@ -70,17 +69,17 @@
             // 
             // tbxResult
             // 
-            this.tbxResult.Location = new System.Drawing.Point(65, 62);
+            this.tbxResult.Location = new System.Drawing.Point(102, 62);
             this.tbxResult.Multiline = true;
             this.tbxResult.Name = "tbxResult";
             this.tbxResult.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.tbxResult.Size = new System.Drawing.Size(746, 303);
+            this.tbxResult.Size = new System.Drawing.Size(709, 303);
             this.tbxResult.TabIndex = 3;
             // 
             // lblResult
             // 
             this.lblResult.AutoSize = true;
-            this.lblResult.Location = new System.Drawing.Point(12, 65);
+            this.lblResult.Location = new System.Drawing.Point(62, 65);
             this.lblResult.Name = "lblResult";
             this.lblResult.Size = new System.Drawing.Size(34, 12);
             this.lblResult.TabIndex = 4;
@@ -94,7 +93,7 @@
             "TLS1.1",
             "TLS1.2",
             "SSL3/TLS1.0/TLS1.1/TLS1.2"});
-            this.cbxTLSVersion.Location = new System.Drawing.Point(65, 34);
+            this.cbxTLSVersion.Location = new System.Drawing.Point(102, 34);
             this.cbxTLSVersion.Name = "cbxTLSVersion";
             this.cbxTLSVersion.Size = new System.Drawing.Size(278, 20);
             this.cbxTLSVersion.TabIndex = 5;
@@ -105,9 +104,9 @@
             this.tbxProtocol.AutoSize = true;
             this.tbxProtocol.Location = new System.Drawing.Point(12, 37);
             this.tbxProtocol.Name = "tbxProtocol";
-            this.tbxProtocol.Size = new System.Drawing.Size(44, 12);
+            this.tbxProtocol.Size = new System.Drawing.Size(84, 12);
             this.tbxProtocol.TabIndex = 6;
-            this.tbxProtocol.Text = "Protocol";
+            this.tbxProtocol.Text = "Support Protocol";
             // 
             // lblTLSVersion
             // 
@@ -154,7 +153,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "TLS Checker";
+            this.Text = "TLS Checker  -  by Benson";
             this.ResumeLayout(false);
             this.PerformLayout();
 

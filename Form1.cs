@@ -23,10 +23,6 @@ using System.IO.Compression;
 /// https://stackoverflow.com/questions/28286086/default-securityprotocol-in-net-4-5
 /// https://blog.darkthread.net/blog/webclient-and-tls12/
 /// 
-/// test API:
-/// https://payment.ecpay.com.tw    tls1.1 , tls1.2
-/// https://api2.funpay.com.tw      tls1.0
-/// 
 /// Check TLS Version Usage: (maybe .net framework 4.6 or after)
 /// https://stackoverflow.com/questions/48589590/which-tls-version-was-negotiated
 ///   --install this : https://www.nuget.org/packages/System.IO.Compression/4.3.0 
@@ -45,7 +41,6 @@ namespace WindowsFormsApp1
         {
             string result = string.Empty;
             string url = tbxAPIUrl.Text.Trim();
-            string msg_title = "FunpayModel.get_access_token_V2";
             try
             {
                 result = http_web_request_data_by_get_IgnoreServerCertificate(url);//回傳Content-Type : application/json
