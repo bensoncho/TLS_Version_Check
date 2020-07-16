@@ -1,0 +1,10 @@
+D:\Benson\Playground\TLS_Test\bin\Debug\WindowsFormsApp1.exe.config
+D:\Benson\Playground\TLS_Test\bin\Debug\WindowsFormsApp1.exe
+D:\Benson\Playground\TLS_Test\bin\Debug\WindowsFormsApp1.pdb
+D:\Benson\Playground\TLS_Test\obj\Debug\TLS_Check.csprojAssemblyReference.cache
+D:\Benson\Playground\TLS_Test\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\Benson\Playground\TLS_Test\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Benson\Playground\TLS_Test\obj\Debug\TLS_Check.csproj.GenerateResource.cache
+D:\Benson\Playground\TLS_Test\obj\Debug\TLS_Check.csproj.CoreCompileInputs.cache
+D:\Benson\Playground\TLS_Test\obj\Debug\WindowsFormsApp1.exe
+D:\Benson\Playground\TLS_Test\obj\Debug\WindowsFormsApp1.pdb
