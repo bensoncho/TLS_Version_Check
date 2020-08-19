@@ -105,7 +105,7 @@ namespace WindowsFormsApp1
                         (System.Net.SecurityProtocolType)768 |
                         (System.Net.SecurityProtocolType)3072 |
                         SecurityProtocolType.Ssl3 |
-                        SecurityProtocolType.Tls;                    
+                        SecurityProtocolType.Tls;
                 }
                 else  //Default
                 {
@@ -129,16 +129,17 @@ namespace WindowsFormsApp1
                 myRequest.Method = "GET";
                 //myRequest.ContentType = "application/json";
                 myRequest.Accept = "application/json";
+                myRequest.KeepAlive = false; // 不要keep connection , 調整support protocol 在測試才看的出來重新連線後選擇的 protocol
                 //讀取資料
                 System.Net.HttpWebResponse wr = (System.Net.HttpWebResponse)myRequest.GetResponse();
                 System.IO.Stream resStream = wr.GetResponseStream();
                 System.IO.StreamReader sr = new System.IO.StreamReader(resStream);
                 System.Text.StringBuilder output = new System.Text.StringBuilder();
-                
+
 
                 //lblDesc.Text += string.Format("The Response Headers are Name Value {0}", wr.Headers);
 
-                
+
                 //What TLS Version used
                 SslProtocols ssp = ExtractSslProtocol(resStream);
                 lblTLSVersion.Text += "  Negotiate Protocols = " + ssp.ToString();
